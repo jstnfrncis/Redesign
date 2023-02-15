@@ -114,7 +114,9 @@ h1{
  }
  .dhvsu-location{
     align-items: center;
-    padding-top: 100px;
+    position: absolute;
+    bottom: 0;
+    padding: 25px;
     font-size: 10px;
  }
 
@@ -205,21 +207,22 @@ input{
 }
  .bot-text{
     position: absolute;
-    display: grid;
-    place-items: center;
-    bottom: 247px;
+   text-align: center;
+    margin: auto;
+    bottom: 0;
+    padding: 25px;
  }
  .bot-text p{
   font-size: .8rem;
  
  }
- .bot-text a{
-  
+
+ .click-here a:hover{
+  color: red;
+  text-decoration: none;
  }
   
- .reset{
-    text-decoration: none;
- }
+ 
  header{
     background-color: #dd2f23;
     width: 100%;
